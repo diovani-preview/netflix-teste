@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Plataforma digital de Filosofia com conteúdos, atividades, vídeos, biblioteca e fóruns de debates."
+    >
+
+    <title>Philoflix | Plataforma de Filosofia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topbar" id="topbar">
+
+        <div class="topbar-content">
+
+            <div class="topbar-left">
+
+                <button
+                    class="mobile-menu-button"
+                    id="mobileMenuButton"
+                    type="button"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <a
+                    href="#inicio"
+                    class="logo"
+                    aria-label="Voltar ao início"
+                >
+                    <span>PHILO</span>FLIX
+                </a>
+
+                <nav
+                    class="main-navigation"
+                    id="mainNavigation"
+                    aria-label="Menu principal"
+                >
+                    <a href="#inicio">Início</a>
+                    <a href="#mito-filosofia">Mito e Filosofia</a>
+                    <a href="#teoria-conhecimento">Conhecimento</a>
+                    <a href="#etica">Ética</a>
+                    <a href="#filosofia-politica">Política</a>
+                    <a href="#filosofia-ciencia">Ciência</a>
+                    <a href="#estetica">Estética</a>
+                </nav>
+
+            </div>
+
+            <div class="topbar-right">
+
+                <div
+                    class="search-area"
+                    id="searchArea"
+                >
+
+                    <button
+                        class="search-button"
+                        id="searchButton"
+                        type="button"
+                        aria-label="Abrir pesquisa"
+                    >
+                        <span class="search-icon"></span>
+                    </button>
+
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Pesquisar conteúdo..."
+                        autocomplete="off"
+                        aria-label="Pesquisar conteúdo"
+                    >
+
+                </div>
+
+                <div
+                    class="profile-avatar"
+                    aria-label="Componente curricular de Filosofia"
+                >
+                    F
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div
+        class="mobile-menu-overlay"
+        id="mobileMenuOverlay"
+    ></div>
+
+
+    <main>
+
+        <section
+            class="hero"
+            id="inicio"
+        >
+
+            <div class="hero-background">
+
+                <div class="hero-circle circle-one"></div>
+                <div class="hero-circle circle-two"></div>
+                <div class="hero-circle circle-three"></div>
+
+                <span class="hero-symbol symbol-one">Φ</span>
+                <span class="hero-symbol symbol-two">?</span>
+                <span class="hero-symbol symbol-three">Ω</span>
+
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    PLATAFORMA DIGITAL DE FILOSOFIA
+                </span>
+
+                <h1>
+                    Filosofia para compreender,
+                    <strong>
+                        questionar e transformar.
+                    </strong>
+                </h1>
+
+                <p>
+                    Explore conteúdos, atividades, vídeos, materiais
+                    complementares e espaços de debates organizados
+                    pelos principais conteúdos estruturantes da Filosofia.
+                </p>
+
+                <div class="hero-information">
+
+                    <span class="classification">
+                        LIVRE
+                    </span>
+
+                    <span>6 conteúdos estruturantes</span>
+
+                    <span>30 ambientes de aprendizagem</span>
+
+                </div>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-button"
+                        id="exploreButton"
+                        type="button"
+                    >
+                        <span>▶</span>
+                        Explorar plataforma
+                    </button>
+
+                    <button
+                        class="secondary-button"
+                        id="guideButton"
+                        type="button"
+                    >
+                        <span class="information-icon">i</span>
+                        Como utilizar
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="learning-environments">
+
+            <header class="general-section-heading">
+
+                <div>
+                    <span class="section-eyebrow">
+                        AMBIENTES DE APRENDIZAGEM
+                    </span>
+
+                    <h2>
+                        O que você encontrará
+                    </h2>
+                </div>
+
+                <p>
+                    Cada conteúdo estruturante apresenta cinco ambientes
+                    organizados para facilitar o acesso aos materiais.
+                </p>
+
+            </header>
+
+            <div class="environment-grid">
+
+                <article class="environment-item">
+
+                    <span class="environment-number">
+                        01
+                    </span>
+
+                    <span class="environment-icon">
+                        ▤
+                    </span>
+
+                    <div>
+                        <h3>Conteúdos</h3>
+
+                        <p>
+                            Textos, conceitos, explicações e materiais
+                            organizados para estudo.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="environment-item">
+
+                    <span class="environment-number">
+                        02
+                    </span>
+
+                    <span class="environment-icon">
+                        ✓
+                    </span>
+
+                    <div>
+                        <h3>Atividades</h3>
+
+                        <p>
+                            Exercícios, desafios e experiências
+                            interativas de aprendizagem.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="environment-item">
+
+                    <span class="environment-number">
+                        03
+                    </span>
+
+                    <span class="environment-icon">
+                        ▶
+                    </span>
+
+                    <div>
+                        <h3>Vídeos</h3>
+
+                        <p>
+                            Aulas, explicações, documentários e
+                            produções audiovisuais.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="environment-item">
+
+                    <span class="environment-number">
+                        04
+                    </span>
+
+                    <span class="environment-icon">
+                        ✦
+                    </span>
+
+                    <div>
+                        <h3>Saiba Mais</h3>
+
+                        <p>
+                            Biblioteca de leituras e materiais
+                            complementares.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="environment-item">
+
+                    <span class="environment-number">
+                        05
+                    </span>
+
+                    <span class="environment-icon">
+                        ◌
+                    </span>
+
+                    <div>
+                        <h3>Fóruns</h3>
+
+                        <p>
+                            Espaços de participação, argumentação
+                            e debates filosóficos.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="catalog"
+            id="catalogo"
+            aria-label="Catálogo de conteúdos de Filosofia"
+        ></section>
+
+
+        <section
+            class="empty-search"
+            id="emptySearch"
+            aria-live="polite"
+        >
+
+            <span class="empty-search-icon">
+                ?
+            </span>
+
+            <h2>
+                Nenhum conteúdo encontrado
+            </h2>
+
+            <p>
+                Verifique o termo pesquisado ou explore uma das
+                categorias disponíveis.
+            </p>
+
+            <button
+                type="button"
+                id="clearSearchButton"
+            >
+                Limpar pesquisa
+            </button>
+
+        </section>
+
+
+        <section class="final-call">
+
+            <div class="final-call-content">
+
+                <span class="section-eyebrow">
+                    PENSAR É O PRIMEIRO PASSO
+                </span>
+
+                <h2>
+                    Toda grande transformação começa com uma pergunta.
+                </h2>
+
+                <p>
+                    Utilize os diferentes ambientes da plataforma para
+                    investigar problemas, confrontar ideias e construir
+                    argumentos fundamentados.
+                </p>
+
+                <button
+                    type="button"
+                    id="finalExploreButton"
+                >
+                    Iniciar jornada filosófica
+                </button>
+
+            </div>
+
+            <div class="final-quote">
+
+                <span class="quote-mark">
+                    “
+                </span>
+
+                <blockquote>
+                    Uma vida sem reflexão não merece ser vivida.
+                </blockquote>
+
+                <cite>
+                    Sócrates
+                </cite>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#inicio"
+                    class="logo footer-logo"
+                >
+                    <span>PHILO</span>FLIX
+                </a>
+
+                <p>
+                    Plataforma educacional destinada ao componente
+                    curricular de Filosofia.
+                </p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Conteúdos estruturantes</h3>
+
+                <a href="#mito-filosofia">
+                    Mito e Filosofia
+                </a>
+
+                <a href="#teoria-conhecimento">
+                    Teoria do Conhecimento
+                </a>
+
+                <a href="#etica">
+                    Ética
+                </a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Outras categorias</h3>
+
+                <a href="#filosofia-politica">
+                    Filosofia Política
+                </a>
+
+                <a href="#filosofia-ciencia">
+                    Filosofia da Ciência
+                </a>
+
+                <a href="#estetica">
+                    Estética
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="currentYear"></span>
+                Philoflix.
+            </p>
+
+            <p>
+                Plataforma educacional de Filosofia.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <div
+        class="modal"
+        id="contentModal"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-labelledby="modalTitle"
+    >
+
+        <div
+            class="modal-overlay"
+            id="modalOverlay"
+        ></div>
+
+        <div class="modal-window">
+
+            <button
+                class="modal-close-button"
+                id="modalCloseButton"
+                type="button"
+                aria-label="Fechar janela"
+            >
+                ×
+            </button>
+
+            <div
+                class="modal-banner"
+                id="modalBanner"
+            >
+
+                <span
+                    class="modal-large-symbol"
+                    id="modalSymbol"
+                >
+                    Φ
+                </span>
+
+                <div class="modal-banner-content">
+
+                    <span
+                        class="modal-category"
+                        id="modalCategory"
+                    >
+                        FILOSOFIA
+                    </span>
+
+                    <h2 id="modalTitle">
+                        Ambiente de aprendizagem
+                    </h2>
+
+                    <p id="modalSubtitle">
+                        Informações sobre o ambiente selecionado.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="modal-body">
+
+                <div class="modal-status">
+
+                    <span></span>
+
+                    Estrutura preparada para receber o link
+
+                </div>
+
+                <p id="modalDescription">
+                    Este espaço será utilizado para organizar os
+                    materiais da plataforma.
+                </p>
+
+                <div class="modal-information-grid">
+
+                    <article>
+
+                        <strong>01</strong>
+
+                        <h3>
+                            Organização temática
+                        </h3>
+
+                        <p>
+                            Espaço destinado à publicação dos materiais
+                            relacionados ao conteúdo selecionado.
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <strong>02</strong>
+
+                        <h3>
+                            Acesso por link
+                        </h3>
+
+                        <p>
+                            O endereço do conteúdo poderá ser configurado
+                            posteriormente no arquivo JavaScript.
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <strong>03</strong>
+
+                        <h3>
+                            Experiência responsiva
+                        </h3>
+
+                        <p>
+                            Visualização adaptada para computador,
+                            tablet e celular.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="modal-actions">
+
+                    <button
+                        class="modal-access-button"
+                        id="modalAccessButton"
+                        type="button"
+                    >
+                        <span>▶</span>
+                        Acessar espaço
+                    </button>
+
+                    <button
+                        class="modal-back-button"
+                        id="modalBackButton"
+                        type="button"
+                    >
+                        Voltar ao catálogo
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="modal"
+        id="guideModal"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-labelledby="guideModalTitle"
+    >
+
+        <div
+            class="modal-overlay"
+            id="guideModalOverlay"
+        ></div>
+
+        <div class="modal-window guide-window">
+
+            <button
+                class="modal-close-button"
+                id="guideCloseButton"
+                type="button"
+                aria-label="Fechar orientações"
+            >
+                ×
+            </button>
+
+            <div class="guide-content">
+
+                <span class="section-eyebrow">
+                    GUIA DA PLATAFORMA
+                </span>
+
+                <h2 id="guideModalTitle">
+                    Como utilizar a Philoflix
+                </h2>
+
+                <p class="guide-introduction">
+                    Cada fileira da plataforma representa um conteúdo
+                    estruturante de Filosofia. Dentro de cada categoria
+                    existem cinco ambientes diferentes.
+                </p>
+
+                <div class="guide-steps">
+
+                    <article>
+
+                        <span>1</span>
+
+                        <div>
+                            <h3>Escolha uma categoria</h3>
+
+                            <p>
+                                Navegue por Mito e Filosofia, Conhecimento,
+                                Ética, Política, Ciência ou Estética.
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <article>
+
+                        <span>2</span>
+
+                        <div>
+                            <h3>Selecione um cartão</h3>
+
+                            <p>
+                                Abra o espaço de conteúdos, atividades,
+                                vídeos, biblioteca ou fórum.
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <article>
+
+                        <span>3</span>
+
+                        <div>
+                            <h3>Configure os links</h3>
+
+                            <p>
+                                Os endereços poderão ser inseridos no
+                                arquivo script.js quando os materiais
+                                estiverem disponíveis.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <button
+                    class="guide-confirm-button"
+                    id="guideConfirmButton"
+                    type="button"
+                >
+                    Entendi
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="toast"
+        id="toast"
+        aria-live="polite"
+    >
+
+        <span class="toast-icon">
+            i
+        </span>
+
+        <div>
+
+            <strong>
+                Link ainda não configurado
+            </strong>
+
+            <p>
+                Este acesso será ativado posteriormente.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        type="button"
+        aria-label="Voltar ao topo"
+    >
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
